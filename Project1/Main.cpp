@@ -5,6 +5,7 @@ using namespace std;
 string convert_to_string(int matrix[N][N]);
 
 bool is_matrix_symmetric(int matrix[N][N]);
+bool is_matrix_antisymmetric(int matrix[N][N]);
 
 int main() {
 	int matrix[N][N] = { {1, 9, 8}, {9, 4, 5}, {8, 5, 6} };
